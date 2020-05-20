@@ -14,6 +14,7 @@
 		4DBC7C6B2475C50D006CE75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC7C692475C50D006CE75C /* LaunchScreen.storyboard */; };
 		4DBC7C762475C50D006CE75C /* GOTEpisodeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C752475C50D006CE75C /* GOTEpisodeListTests.swift */; };
 		4DBC7C862475C850006CE75C /* GOTMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C852475C850006CE75C /* GOTMainView.swift */; };
+		4DBC7C882475CD01006CE75C /* GOTMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C872475CD01006CE75C /* GOTMainViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4DBC7C752475C50D006CE75C /* GOTEpisodeListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTEpisodeListTests.swift; sourceTree = "<group>"; };
 		4DBC7C772475C50D006CE75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DBC7C852475C850006CE75C /* GOTMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTMainView.swift; sourceTree = SOURCE_ROOT; };
+		4DBC7C872475CD01006CE75C /* GOTMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GOTMainViewCell.swift; path = GOTEpisodeList/Cells/GOTMainViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		4DBC7C822475C572006CE75C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				4DBC7C872475CD01006CE75C /* GOTMainViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				4DBC7C632475C509006CE75C /* ViewController.swift in Sources */,
 				4DBC7C5F2475C509006CE75C /* AppDelegate.swift in Sources */,
+				4DBC7C882475CD01006CE75C /* GOTMainViewCell.swift in Sources */,
 				4DBC7C862475C850006CE75C /* GOTMainView.swift in Sources */,
 				4DBC7C612475C509006CE75C /* SceneDelegate.swift in Sources */,
 			);
