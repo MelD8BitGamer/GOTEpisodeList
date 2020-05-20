@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GOTMainViewController: UIViewController {
 
     private let gotView = GOTMainView()
     

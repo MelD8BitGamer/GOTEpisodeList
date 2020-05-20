@@ -36,13 +36,15 @@ class GOTMainViewCell: UITableViewCell {
          return label
      }()
         
-        override init(frame: CGRect) {
-            super.init(frame: UIScreen.main.bounds)
-            commonInit()
-        }
+   
         
-        required init?(coder: NSCoder) {
-            super.init(coder: coder)
+      required init?(coder aDecoder: NSCoder) {
+            super.init(coder: aDecoder)
+        commonInit()
+        }
+//OK since we are dealing with TableViews we need to initialize it or you will get a error stating :Must call a designated initializer of the superclass 'UITableViewCell'
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+            super.init(style: style, reuseIdentifier: reuseIdentifier)
             commonInit()
         }
         
