@@ -17,6 +17,8 @@
 		4DBC7C882475CD01006CE75C /* GOTMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C872475CD01006CE75C /* GOTMainViewCell.swift */; };
 		4DBC7C8C2475DA3E006CE75C /* GOTMainViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C8B2475DA3E006CE75C /* GOTMainViewCellTwo.swift */; };
 		4DBC7C8E2475DE2B006CE75C /* GOTEpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C8D2475DE2B006CE75C /* GOTEpisodeModel.swift */; };
+		4DBC7C902475E09A006CE75C /* GOTDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C8F2475E09A006CE75C /* GOTDetailedViewController.swift */; };
+		4DBC7C922475E0D1006CE75C /* GOTDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC7C912475E0D1006CE75C /* GOTDetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4DBC7C872475CD01006CE75C /* GOTMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GOTMainViewCell.swift; path = GOTEpisodeList/Cells/GOTMainViewCell.swift; sourceTree = SOURCE_ROOT; };
 		4DBC7C8B2475DA3E006CE75C /* GOTMainViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTMainViewCellTwo.swift; sourceTree = "<group>"; };
 		4DBC7C8D2475DE2B006CE75C /* GOTEpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTEpisodeModel.swift; sourceTree = "<group>"; };
+		4DBC7C8F2475E09A006CE75C /* GOTDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTDetailedViewController.swift; sourceTree = "<group>"; };
+		4DBC7C912475E0D1006CE75C /* GOTDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTDetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBC7C622475C509006CE75C /* GOTMainViewController.swift */,
+				4DBC7C8F2475E09A006CE75C /* GOTDetailedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				4DBC7C852475C850006CE75C /* GOTMainView.swift */,
+				4DBC7C912475E0D1006CE75C /* GOTDetailedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBC7C922475E0D1006CE75C /* GOTDetailedView.swift in Sources */,
 				4DBC7C8E2475DE2B006CE75C /* GOTEpisodeModel.swift in Sources */,
 				4DBC7C632475C509006CE75C /* GOTMainViewController.swift in Sources */,
 				4DBC7C8C2475DA3E006CE75C /* GOTMainViewCellTwo.swift in Sources */,
@@ -255,6 +262,7 @@
 				4DBC7C882475CD01006CE75C /* GOTMainViewCell.swift in Sources */,
 				4DBC7C862475C850006CE75C /* GOTMainView.swift in Sources */,
 				4DBC7C612475C509006CE75C /* SceneDelegate.swift in Sources */,
+				4DBC7C902475E09A006CE75C /* GOTDetailedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
